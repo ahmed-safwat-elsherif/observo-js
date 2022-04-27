@@ -1,0 +1,20 @@
+{
+  "name": "observable-js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/examples/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "esbuild-runner": "^2.2.1",
+    "rxjs": "^7.5.4"
+  }
+}
