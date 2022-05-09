@@ -2,19 +2,24 @@
   "name": "observable-js",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/examples/index.js",
+  "main": "lib/index.js",
+  "types": "lib",
   "scripts": {
-    "build": "tsc",
-    "dev": "npm run build && node ."
+    "build": "npx tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "Observable",
+    "RxJS",
+    "Subscribe",
+    "Subscriber",
+    "Reactive Extensions"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "esbuild-runner": "^2.2.1",
-    "rxjs": "^7.5.4"
+    "esbuild-runner": "^2.2.1"
   }
 }

@@ -1,10 +1,10 @@
 import { Subscriber } from "./subscriber";
 import {
-  SubscribtionCallBackFun,
-  SubscribeSuccessCallBackFun,
-  SubscribeErrorCallBackFun,
   SubscribeCompleteCallBackFun,
-} from "../types/subscription-callbacks.model";
+  SubscribeErrorCallBackFun,
+  SubscribeSuccessCallBackFun,
+  SubscribtionCallBackFun,
+} from "./@types/subscription-callbacks.model";
 
 export class Observable<T> {
   constructor(private subcallBackFun: SubscribtionCallBackFun<T>) {}

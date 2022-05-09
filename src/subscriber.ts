@@ -2,7 +2,7 @@ import {
   SubscribeCompleteCallBackFun,
   SubscribeErrorCallBackFun,
   SubscribeSuccessCallBackFun,
-} from "../types/subscription-callbacks.model";
+} from "./@types/subscription-callbacks.model";
 
 const noop = () => {};
 

@@ -1,4 +1,4 @@
-import { Subscriber } from "../lib/subscriber";
+import { Subscriber } from "../subscriber";
 
 export type SubscribtionCallBackFun<T> = (subscriber: Subscriber<T>) => void;
 export type SubscribeSuccessCallBackFun<T> = (response: T) => void;
