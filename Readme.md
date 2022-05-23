@@ -6,3 +6,7 @@ What is implemented:
 
 1. Observable class
 2. Subscriber class
+
+## Install
+
+    npm i observo-js

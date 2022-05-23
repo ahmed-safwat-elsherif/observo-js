@@ -1,7 +1,7 @@
 {
   "name": "observo-js",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.6",
+  "description": "Implementation of some of the mighty powerful tools offered by Reactive Extensions for JavaScript (RxJS)",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
@@ -15,8 +15,8 @@
     "Subscriber",
     "Reactive Extensions"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Ahmed Safwat",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.2"
   },
@@ -27,8 +27,8 @@
     "type": "git",
     "url": "https://github.com/ahmed-safwat-elsherif/observo-js"
   },
-  "homepage": {
-    "url": "https://github.com/ahmed-safwat-elsherif/observo-js/blob/master/Readme.md",
-    "email": "aelsherif101@gmail.com"
+  "homepage": "https://github.com/ahmed-safwat-elsherif/observo-js/blob/master/Readme.md",
+  "bugs": {
+    "url": "https://github.com/ahmed-safwat-elsherif/observo-js/issues"
   }
 }
