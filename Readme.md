@@ -1,4 +1,4 @@
-# **Observable-js**
+# **Observo-js**
 
 > This repo is meant to present a simple implementation for the observable class like that of [RxJS](https://rxjs.dev/) library.
 
